@@ -1,5 +1,6 @@
+
 public class Library {
-    private static Library single_instance = null;
+    public static Library single_instance = null;
     private String libraryName;
     private int totalBooks;
     private int availableBooks;

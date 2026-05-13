@@ -1,3 +1,4 @@
+
 public class Program {
     public static void main(String[] args) {
         Library lib1 = Library.getInstance();
@@ -11,6 +12,7 @@ public class Program {
         lib2.borrowBook(50);   // 70  - 50 = 20
         lib1.returnBook(10);   // 20  + 10 = 30
         lib2.addBook(20);      // 30  + 20 = 50
+
 
         System.out.println("bolomjit nom (lib1): " + lib1.getAvailableBooks());
         System.out.println("bolomjit nom (lib2): " + lib2.getAvailableBooks());
